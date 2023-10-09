@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <! Header of the page>
+        <header>
+            <a href="#" class="logo"><img
+                    src="https://cdn3.vectorstock.com/i/1000x1000/60/17/clothing-logo-template-vector-23896017.jpg"
+                    alt="logo"></a>
+            <! Navigation Links to the same page>
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li><a href="#">Reviews</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <! User credentials>
+                    <div class="navbar-icons">
+                        <a href="#"><i class='bx bx-user-pin'></i></a>
+                        <a href="#"><i class='bx bxs-cart-alt'></i></a>
+
+                        <div class="bx bx-menu" id="menu-icon"></div>
+                    </div>
+        </header>
+        <main>
+            <! Home and Offer section>
+                <section class="main-home">
+                    <div class="main-text">
+                        <h5>Winter Collection</h5>
+                        <h1>New Winter <br> Collection</h1>
+                        <p>There's Nothing like Trend</p>
+                        <a href="#" class="main-btn">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                    </div>
+                    <div class="down-arrow">
+                        <a href="#trending" class="down"><i class='bx bx-down-arrow-alt'></i></a>
+                    </div>
+                </section>
+                <!Main Products for display>
+                    <section class="trending-products">
+                        <div class="center-text">
+                            <h2>Our Trendind <span>Products</span></h2>
+                        </div>
+                        <div class="products">
+                            <div class="row">
+                                <img src="https://www2.hm.com/content/dam/global_campaigns/season_08/men/3078u/3078U-2x3-1.jpg"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bx-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>New Heritage</h4>
+                                    <p>$122 - $140</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fac%2F2e%2Fac2e959c2da9154962ffde085b2c6eeefa3994aa.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bx-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Half Running Set</h4>
+                                    <p>$122 - $140</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe6%2F67%2Fe667dc95bbfd4374bc675809414f712c52eb09e9.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Relaxed Worker Trouser</h4>
+                                    <p>$182 - $195</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F94%2F02%2F940228911d86b90c75551cd4526419e15c12785d.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Regular Tailored Twill</h4>
+                                    <p>$162 - $193</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F01%2F8c%2F018c62742f72eea0c9bd9c55e5edccba87489a37.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Loose fit Overshirt</h4>
+                                    <p>$222 - $240</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fa3%2F96%2Fa3967c04f10fb79f9f468e1ef8350fdd53c74489.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Zigler Jacket</h4>
+                                    <p>$322 - $340</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F65%2F85%2F6585b5bac4de1cc7bcb436b14d48876f2c0caf51.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Regular fit Hoodie</h4>
+                                    <p>$192 - $210</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fe0%2F82%2Fe082bc180d62cd5fa701a5e096fb02c97b1864d2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Zip-through Jacket</h4>
+                                    <p>$212 - $230</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F79%2F7d%2F797d56d6d2f71721ff5f44158767e1fbbdc03837.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]"
+                                    alt="product">
+                                <div class="product-text">
+                                    <h5>Sale</h5>
+                                </div>
+                                <div class="heart-icon">
+                                    <i class='bx bx-heart'></i>
+                                </div>
+                                <div class="rating">
+                                    <i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i
+                                        class='bx bxs-star'></i><i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <h4>Bomber Jacket</h4>
+                                    <p>$222 - $240</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!Reviews of users>
+                        <section class="client-reviews">
+                            <div class="reviews">
+                                <h3>Client Reviews</h3>
+                                <img src="https://static.vecteezy.com/system/resources/previews/009/398/577/original/man-avatar-clipart-illustration-free-png.png"
+                                    alt="client-photo">
+                                <h2>John Jacob</h2>
+                                <p>Check out all the freshest styles your closet needs in our men's clothing range.
+                                    You'll find a
+                                    roundup of
+                                    everyday essentials, including tops and T-Shirts, as well as comfy lounge sets and
+                                    underwear. Formal
+                                    event coming up? Scroll no further than our men's blazers and suits for the sharpest
+                                    looks and nail
+                                    the
+                                    dress code. When it comes to men's pants, there's chinos, joggers</p>
+                            </div>
+                            <div class="reviews">
+                                <img src="https://png.pngtree.com/png-clipart/20190924/original/pngtree-human-avatar-free-vector-png-image_4825373.jpg"
+                                    alt="client-photo">
+                                <h2>Joseph Jerald</h2>
+                                <p>Check out all the freshest styles your closet needs in our men's clothing range.
+                                    You'll find a
+                                    roundup of
+                                    everyday essentials, including tops and T-Shirts, as well as comfy lounge sets and
+                                    underwear. Formal
+                                    event coming up? Scroll no further than our men's blazers and suits for the sharpest
+                                    looks and nail
+                                    the
+                                    dress code. When it comes to men's pants, there's chinos, joggers</p>
+                            </div>
+                        </section>
+                        <!Blog section of the page>
+                            <section class="update-news">
+                                <div class="up-center-text">
+                                    <h2>New Updates</h2>
+                                </div>
+                                <div class="update-cart">
+                                    <div class="cart">
+                                        <img src="https://assets.vogue.com/photos/61e9c42f201fe8db0bc39899/4:3/w_1600%2Cc_limit/00_promo.jpg"
+                                            alt="">
+                                        <h2>26 Jan 2023</h2>
+                                        <h4>Let's start bring sale on this summer vacation</h4>
+                                        <p>Check out all the freshest styles your closet needs in our men's clothing
+                                            range. You'll find a
+                                            roundup of everyday essentials, including tops and T-Shirts, as well as
+                                            comfy lounge sets and
+                                            underwear. Formal event coming up? Scroll no further than our men's blazers
+                                            and suits for the
+                                            sharpest looks and nail the dress code. When it comes to men's pants,
+                                            there's chinos, joggers
+                                        </p>
+                                        <h6>Continue Reading...</h6>
+                                    </div>
+                                    <div class="cart">
+                                        <img src="https://www.stockland.com.au/~/media/shopping-centre/stockland-wendouree/offers-and-events/news/2022/festival-of-fashion/900x675_-festival-of-fashion_web-tile.png"
+                                            alt="">
+                                        <h2>26 Jan 2023</h2>
+                                        <h4>Let's start bring sale on this summer vacation</h4>
+                                        <p>Check out all the freshest styles your closet needs in our men's clothing
+                                            range. You'll find a
+                                            roundup of everyday essentials, including tops and T-Shirts, as well as
+                                            comfy lounge sets and
+                                            underwear. Formal event coming up? Scroll no further than our men's blazers
+                                            and suits for the
+                                            sharpest looks and nail the dress code. When it comes to men's pants,
+                                            there's chinos, joggers
+                                        </p>
+                                        <h6>Continue Reading...</h6>
+                                    </div>
+                                    <div class="cart">
+                                        <img src="https://www.stockland.com.au/~/media/shopping-centre/stockland-townsville/2022-events-and-news/autumn-winter-fashion/ultimate-style-guide/0522_sl_townsville_season-of-kicks_900x675.jpg"
+                                            alt="">
+                                        <h2>26 Jan 2023</h2>
+                                        <h4>Let's start bring sale on this summer vacation</h4>
+                                        <p>Check out all the freshest styles your closet needs in our men's clothing
+                                            range. You'll find a
+                                            roundup of everyday essentials, including tops and T-Shirts, as well as
+                                            comfy lounge sets and
+                                            underwear. Formal event coming up? Scroll no further than our men's blazers
+                                            and suits for the
+                                            sharpest looks and nail the dress code. When it comes to men's pants,
+                                            there's chinos, joggers
+                                        </p>
+                                        <h6>Continue Reading...</h6>
+                                    </div>
+                                </div>
+                            </section>
+        </main>
+        <footer>
+            <!Footer and contact section>
+                <section class="contact">
+                    <div class="contact-info">
+                        <div class="first-info">
+                            <p id="flashy">Flashy</p>
+                            <p>#138 White House</p>
+                            <p>New Jersey - 560023 </p>
+                            <p>+101 9325567244</p>
+                            <p>Jenifer@gmail.com</p>
+                            <div class="social-icon">
+                                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                                <a href=""><i class='bx bxl-instagram-alt'></i></a>
+                                <a href=""><i class='bx bxl-twitter'></i></a>
+                                <a href=""><i class='bx bxl-linkedin-square'></i></a>
+                            </div>
+                        </div>
+                        <div class="second-info">
+                            <h4>Support</h4>
+                            <p>Contact Us</p>
+                            <p>About page</p>
+                            <p>Shopping</p>
+                            <p>Client Reviews</p>
+                            <p>News updates</p>
+                        </div>
+                        <div class="third-info">
+                            <h4>Shop</h4>
+                            <p>Men's Fashion</p>
+                            <p>Discounts</p>
+                        </div>
+                        <div class="fourth-info">
+                            <h4>Home</h4>
+                            <p>Product</p>
+                            <p>Reviews</p>
+                            <p>Blogs</p>
+                            <p>Contact</p>
+                        </div>
+                        <div class="five">
+                            <p id="flashy">Subscribe</p>
+                            <p>Receive Updates, Hot Deals, Discounts sent straight into your inbox daily.</p>
+                            <a href="#" class="subscribe">Subscribe</a>
+                        </div>
+                    </div>
+                </section>
+                <div class="end-text">
+                    <p>Copyright &copy @2022 | All Rights Reserved | Designed By Abdul Hannan.</p>
+                </div>
+        </footer>
+</body>
+
+</html>
